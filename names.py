@@ -16,7 +16,7 @@ int_ran=secrets.randbelow(999)
 
 #print(int_ran)
 #gen cool name
-
+strlist.sort()
 ran_names=secrets.choice(strlist)
 ran_names2=secrets.choice(strlist)
 print(ran_names,ran_names2,int_ran)
